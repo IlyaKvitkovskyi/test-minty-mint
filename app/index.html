@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="description" />
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <button class="header__btn-login">Log In</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Intro -->
+      <section class="intro">
+        <div class="container">
+          <div class="intro__content">
+            <div class="intro__content-left">
+              <h2 class="intro__content-title title">
+                It’s a hot place for your streaming fantasy.
+              </h2>
+              <p class="description">
+                It’s a free space for watching streams and chatting with alluring people.
+              </p>
+            </div>
+            <img class="intro__hand-img" src="img/hand-little.png" alt="hand icon" />
+            <img class="intro__spot-img" src="img/spot-ad.svg" alt="spot img" />
+            <button class="btn intro__btn">Sign up now</button>
+
+            <div class="intro__content-sub">
+              <h2 class="intro__content-title title">
+                It’s a dedicated space for your bold fantasies!
+              </h2>
+              <p class="description">
+                Hundreds of attractive admirers are already waiting for you here. Don’t delay – dive
+                into the world of streaming, flirting and hot communication right now!
+              </p>
+            </div>
+
+            <div class="intro__content-right">
+              <form id="form" class="intro__content-form form-signin">
+                <div class="signup">
+                  <div class="signup-img">
+                    <img src="img/google.svg" style="width: 30px; height: 30px" alt="google icon" />
+                  </div>
+                  <div class="signup-text">Sign up with Google</div>
+                </div>
+
+                <span class="intro__content-form--or">or</span>
+                <span class="input-title">Email</span>
+
+                <label class="form__label">
+                  <input class="form__input" type="email" placeholder="e.g. Alex@email.com" />
+                </label>
+
+                <span class="input-title">Password</span>
+                <label class="form__label">
+                  <input class="form__input" type="password" placeholder="8+ characters" />
+                  <button class="input-btn" name="button">
+                    <img src="img/eye.svg" style="width: 21px; height: 16px" alt="eye icon" />
+                  </button>
+                </label>
+
+                <button class="btn form__signup-btn form__signin-btn">Sign in now</button>
+
+                <div class="signup signup-bot">
+                  <div class="signup-img">
+                    <img src="img/mail.svg" style="width: 30px; height: 30px" alt="mail icon" />
+                  </div>
+                  <div class="signup-text">Sign up with Google</div>
+                </div>
+
+                <p class="form__description">
+                  You hereby confirm that you are fully able and competent to access Livebeam and
+                  comply with the Terms of Use & Service, and are at least eighteen (18) years of
+                  age or the age of majority under the law of the jurisdiction of your residence and
+                  the one you are accessing Livebeam from.
+                </p>
+
+                <div class="form__switch-btns">
+                  <a class="form__switch-btn button" name="button"></a>
+                  <a class="form__switch-btn button form__switch-btn--active" name="button"></a>
+                </div>
+              </form>
+
+              <form id="form" class="intro__content-form form-signup">
+                <span class="input-title">I am</span>
+
+                <div class="form__gender">
+                  <label class="form__label form__label--gender">
+                    <input class="form__input" type="text" placeholder="male" />
+                  </label>
+                  <label class="form__label form__label--gender">
+                    <input class="form__input" type="text" placeholder="female" />
+                  </label>
+                </div>
+
+                <span class="input-title">My name</span>
+
+                <label class="form__label">
+                  <input class="form__input" type="name" placeholder="e.g. Alex" />
+                </label>
+
+                <span class="input-title">I was born</span>
+                <label class="form__label">
+                  <input class="form__input" type="datetime" placeholder="MM/DD/YYYY" />
+                </label>
+
+                <label class="form__checkbox">
+                  <input class="form__input-checkbox" type="checkbox" />
+                  <span class="form__span"
+                    >I have read understand and agree to Terms of Use, Privacy Policy,
+                    Disclosures&Disclaimers.</span
+                  >
+                </label>
+
+                <button class="btn form__signup-btn">Sign up now</button>
+
+                <div class="form__switch-btns">
+                  <a class="form__switch-btn button" name="button"></a>
+                  <a class="form__switch-btn button form__switch-btn--active" name="button"></a>
+                </div>
+              </form>
+
+              <img
+                class="form-img"
+                src="img/spot-intro.svg"
+                style="width: 756px; height: 756px"
+                alt="spot img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <ul class="intro__slider-list slider">
+          <li class="slider__item">
+            <img src="img/girl-1.jpg" alt="Girls gif" />
+          </li>
+          <li class="slider__item">
+            <img src="img/girl-2.jpg" alt="Girls gif" />
+          </li>
+          <li class="slider__item">
+            <img src="img/girl-3.jpg" alt="Girls gif" />
+          </li>
+          <li class="slider__item">
+            <img src="img/girl-4.jpg" alt="Girls gif" />
+          </li>
+        </ul>
+      </section>
+      <!-- ./Intro -->
+
+      <!-- About -->
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__inner">
+              <div class="title">About</div>
+              <p class="description">
+                It’s a global <strong>streaming platform</strong> for communication and meeting
+                incredibly beautiful people. We created an excellent place where you can enjoy your
+                time and <strong> find appropriate matches </strong>at first.
+              </p>
+
+              <p class="description">
+                Approximately 80% of our users have already found their lovelies.
+                <strong> Watch streams </strong>without hindrance and meet someone
+                <strong>who interests you.</strong>
+              </p>
+
+              <button class="btn" name="button">Join for free</button>
+            </div>
+            <img
+              class="about__wrapper-img"
+              src="img/spot-about.svg"
+              style="width: 417px; height: 417px"
+              alt="spot img"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- ./About -->
+
+      <!-- Benefits -->
+      <section class="benefits">
+        <div class="container">
+          <h2 class="title">Wy join us?</h2>
+          <img class="benefits__img" src="img/spot-benefits.svg" alt="spot img" />
+
+          <div class="benefits__top">
+            <div class="benefits__item">
+              <div class="benefits__item--top">
+                <img src="img/cloud.svg" style="width: 36px; height: 36px" alt="cloud icon" />
+                <span>Chat with attractive streamers for free </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  It’s an excellent web platform for streaming. Write messages to the beautiful
+                  streamers for free and explore this magical universe of communication!
+                </p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item--top">
+                <img src="img/lock.svg" style="width: 26px; height: 33px" alt="Lock icon" />
+                <span>Only verified users </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  We care about the privacy and security of our customers. All accounts are verified
+                  so look for an attractive stranger confidently!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="benefits__bottom">
+            <div class="benefits__item benefits__item--disappear">
+              <div class="benefits__item--top">
+                <img src="img/search.svg" style="width: 35px; height: 35px" alt="Search icon" />
+                <span>Customized search </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  Match alluring partners for your own preferences. Maybe you will be interested in
+                  a hot slender European or shy beautiful Asian? Make your choice…
+                </p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item--top">
+                <img src="img/ok.png" style="width: 28px; height: 35px" alt="Okay icon" />
+                <span>Easy to use </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  Forget about hundreds of annoying notifications and inconvenient use. We have
+                  created the platform as easy to use and search as possible. Don’t waste your time
+                  studying functionality. Just enjoy!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="benefits__top--hidden slider">
+            <div class="benefits__item">
+              <div class="benefits__item--top">
+                <img src="img/cloud.svg" style="width: 36px; height: 36px" alt="cloud icon" />
+                <span>Chat with attractive streamers for free </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  It’s an excellent web platform for streaming. Write messages to the beautiful
+                  streamers for free and explore this magical universe of communication!
+                </p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item--top">
+                <img src="img/lock.svg" style="width: 26px; height: 33px" alt="Lock icon" />
+                <span>Only verified users </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  We care about the privacy and security of our customers. All accounts are verified
+                  so look for an attractive stranger confidently!
+                </p>
+              </div>
+            </div>
+
+            <div class="benefits__item benefits__item--disappear">
+              <div class="benefits__item--top">
+                <img src="img/search.svg" style="width: 35px; height: 35px" alt="Search icon" />
+                <span>Customized search </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  Match alluring partners for your own preferences. Maybe you will be interested in
+                  a hot slender European or shy beautiful Asian? Make your choice…
+                </p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item--top">
+                <img src="img/ok.png" style="width: 28px; height: 35px" alt="Okay icon" />
+                <span>Easy to use </span>
+              </div>
+              <div class="benefits__item--bot">
+                <p>
+                  Forget about hundreds of annoying notifications and inconvenient use. We have
+                  created the platform as easy to use and search as possible. Don’t waste your time
+                  studying functionality. Just enjoy!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <ul class="intro__slider-list benefits__slider slider">
+            <li class="slider__item">
+              <img src="img/girl-1.jpg" alt="Girls gif" />
+            </li>
+            <li class="slider__item">
+              <img src="img/girl-2.jpg" alt="Girls gif" />
+            </li>
+            <li class="slider__item">
+              <img src="img/girl-3.jpg" alt="Girls gif" />
+            </li>
+            <li class="slider__item">
+              <img src="img/girl-4.jpg" alt="Girls gif" />
+            </li>
+          </ul>
+          <img class="benefits__img-slider" src="img/spot-ad.svg" alt="spot img" />
+        </div>
+      </section>
+      <!-- ./Benefits -->
+
+      <!-- Reasons -->
+      <section class="reasons">
+        <img
+          class="reasons__img--first"
+          src="img/spot-reasons2.svg"
+          style="width: 1260px; height: 1720px"
+          alt="spot img"
+        />
+        <div class="container">
+          <h2 class="title">Here you can find</h2>
+
+          <ul class="reasons__list">
+            <li class="reasons__list-item">
+              <img src="img/monitor.svg" style="width: 36px; height: 36px" alt="monitor icon" />
+              <p>Watching streams of everyone you really like;</p>
+            </li>
+            <li class="reasons__list-item">
+              <img src="img/princess.svg" style="width: 32px; height: 36px" alt="monitor icon" />
+              <p>Free communication with pretty streamers;</p>
+            </li>
+            <li class="reasons__list-item">
+              <img src="img/mail-send.svg" style="width: 26px; height: 36px" alt="monitor icon" />
+              <p>Sweet connection with people you match;</p>
+            </li>
+            <li class="reasons__list-item">
+              <img src="img/skates.svg" style="width: 35px; height: 30px" alt="monitor icon" />
+              <p>New acquaintances with someone who has similar interests;</p>
+            </li>
+            <li class="reasons__list-item">
+              <img src="img/volume.svg" style="width: 36px; height: 34px" alt="monitor icon" />
+              <p>Fascinating hobbies and exciting occupations from people you fancy.</p>
+            </li>
+          </ul>
+        </div>
+        <img class="reasons__img" src="img/spot-reasons.svg" alt="spot img" />
+      </section>
+      <!-- ./Reasons -->
+
+      <section class="communication">
+        <div class="container">
+          <div class="communication__inner">
+            <h2 class="title">It’s a universe of communication and streaming without borders!</h2>
+            <p class="description">
+              Let yourself to be free – share your thoughts, delight, and fears with beautiful
+              strangers!
+            </p>
+          </div>
+        </div>
+
+        <div class="communication__wrapper">
+          <ul class="communication__slider-list intro__slider-list slider">
+            <li class="slider__item">
+              <img src="img/girl-5.jpg" alt="Girls gif" />
+            </li>
+            <li class="slider__item">
+              <img src="img/girl-6.jpg" alt="Girls gif" />
+            </li>
+            <li class="slider__item">
+              <img src="img/girl-7.jpg" alt="Girls gif" />
+            </li>
+            <li class="slider__item">
+              <img src="img/girl-8.jpg" alt="Girls gif" />
+            </li>
+            <li class="slider__item">
+              <img src="img/girl-9.jpg" alt="Girls gif" />
+            </li>
+          </ul>
+
+          <img class="communication__img-slider" src="img/spot-ad.svg" alt="spot img" />
+        </div>
+        <button id="btn" class="btn" name="button">Join for free</button>
+      </section>
+
+      <!-- Fantasies -->
+      <section class="fantasies">
+        <div class="container">
+          <div class="fantasies__inner">
+            <h2 class="title">It’s a dedicated space for your bold fantasies!</h2>
+            <p class="description">
+              Hundreds of attractive admirers are already waiting for you here. Don’t delay – dive
+              into the world of streaming, flirting, and hot communication right now!
+            </p>
+            <button class="btn" name="button">Write to her</button>
+          </div>
+        </div>
+        <img class="fantasies__img" src="img/hand.png" style="width: 750px; height: 818px" alt="" />
+        <img
+          class="fantasies__img-spot"
+          src="img/spot-last.svg"
+          style="width: 902px; height: 901px"
+          alt="spot img"
+        />
+      </section>
+      <!-- ./Fantasies -->
+    </main>
+    <!-- ./Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__items">
+          <div class="footer__item">
+            <a class="footer__item-mail" href="mailto:support@gmail.com">support@gmail.com</a>
+            <a class="footer__item-unsubscribe">Unsubscribe</a>
+          </div>
+          <div class="footer__item">
+            <span class="footer__item-title">Legal terms</span>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Terms of Use</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Diclosures&Disclaimers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <span class="footer__item-title">Privacy info</span>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Privacy Policy</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Cookie Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <span class="footer__item-title">About</span>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#"> About Us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ./Footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

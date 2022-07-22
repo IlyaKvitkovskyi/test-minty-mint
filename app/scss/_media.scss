@@ -1,0 +1,374 @@
+@media (max-width: 480px) {
+  // D-NONE
+  .intro__hand-img,
+  .intro__btn,
+  .intro__spot-img,
+  .intro__content-sub,
+  .form__signin-btn,
+  .benefits__img-slider,
+  .communication__img-slider {
+    display: block;
+  }
+  // ./D-NONE
+
+  .form-img,
+  .benefits__img {
+    display: none;
+  }
+
+  .btn {
+    min-width: 260px;
+    min-height: 60px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .title {
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  // INTRO
+  .intro {
+    margin-top: 50px;
+    padding-bottom: 60px;
+
+    &__hand-img {
+      position: relative;
+    }
+
+    &__spot-img {
+      position: absolute;
+      top: 10%;
+      z-index: -1;
+    }
+
+    &__content {
+      flex-direction: column;
+      margin-bottom: 60px;
+
+      .title {
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+      .description {
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      &-sub {
+        width: 250px;
+        margin-bottom: 40px;
+      }
+
+      &-left {
+        width: 290px;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      &-form {
+        padding: 30px;
+        width: 280px;
+        height: 415px;
+      }
+
+      &-form--or {
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-bottom: 10px;
+      }
+
+      .signup {
+        width: 210px;
+        margin-bottom: 10px;
+      }
+
+      .signup-bot {
+        display: none;
+      }
+
+      .signup-text {
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+
+    .form__signup-btn {
+      min-width: 205px;
+      min-height: 38px;
+      margin-bottom: 10px;
+    }
+
+    .form__signin-btn {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .form__checkbox {
+      margin-bottom: 15px;
+    }
+
+    .form__label {
+      width: 210px;
+      height: 34px;
+      margin-bottom: 10px;
+    }
+
+    .form__label--gender {
+      width: 105px;
+    }
+
+    .form__description {
+      display: none;
+    }
+
+    .form__input {
+      padding: 10px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    .form__input-checkbox {
+      min-width: 15px;
+      min-height: 15px;
+    }
+
+    .form__span {
+      font-size: 10px;
+      line-height: 12px;
+    }
+
+    .input-title {
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &__btn {
+      position: relative;
+      width: 270px;
+      top: -60px;
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+
+  ul.intro__slider-list {
+    background: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-bottom: 30px;
+    li {
+      img {
+        width: 280px;
+        height: 305px;
+        margin-right: 10px;
+        border-radius: 35px;
+      }
+    }
+  }
+  // ./INTRO
+
+  // ABOUT
+  .about {
+    padding-bottom: 60px;
+
+    .description {
+      margin-bottom: 15px;
+      width: 250px;
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    &__wrapper {
+      width: 320px;
+
+      &-img {
+        display: none;
+      }
+    }
+
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 0;
+    }
+  }
+  // ./ABOUT
+
+  // BENEFITS
+  .benefits {
+    padding-bottom: 60px;
+
+    &__slider {
+      position: relative;
+    }
+
+    &__img-slider {
+      position: absolute;
+      top: 30%;
+      z-index: -1;
+    }
+
+    .slick-slide {
+      height: 230px;
+    }
+
+    &__inner {
+      display: flex;
+    }
+
+    &__top,
+    &__bottom {
+      display: none;
+    }
+
+    &__item {
+      margin-right: 20px;
+      padding: 25px;
+      width: 280px;
+      height: 230px;
+    }
+
+    &__item--top {
+      span {
+        font-size: 18px;
+        line-height: 21px;
+      }
+    }
+
+    &__item--bot {
+      p {
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+
+  ul.benefits__slider {
+    display: flex;
+    .slick-slide {
+      height: 100%;
+    }
+  }
+
+  .benefits__top--hidden {
+    display: block !important;
+    margin-bottom: 60px;
+  }
+  // ./BENEFITS
+
+  // REASONS
+  .reasons {
+    padding-bottom: 60px;
+
+    &__img--first,
+    &__img {
+      display: none;
+    }
+
+    &__list-item {
+      display: flex;
+      flex-direction: column;
+      padding: 40px 30px 30px 30px;
+      width: 280px;
+      height: 168px;
+      margin-bottom: 20px;
+
+      img {
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 19px;
+        width: 229px;
+        text-align: center;
+      }
+    }
+  }
+  // ./REASONS
+
+  // COMMUNICATION
+  .communication {
+    padding-bottom: 60px;
+
+    &__inner {
+      margin-bottom: 0;
+      margin-bottom: 30px;
+    }
+
+    .title {
+      margin-bottom: 25px;
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    .title,
+    .description {
+      max-width: 270px;
+      width: 100%;
+      text-align: initial;
+    }
+
+    .description {
+      font-size: 16px;
+      line-height: 19px;
+      margin: 0;
+    }
+  }
+
+  ul.communication__slider-list {
+    position: relative;
+  }
+
+  .communication__img-slider {
+    position: absolute;
+    bottom: -70%;
+    z-index: -1;
+  }
+
+  .communication__wrapper {
+    position: relative;
+  }
+  // ./COMMUNICATION
+
+  // FANTASIES
+  .fantasies {
+    display: none;
+  }
+  // ./FANTASIES
+
+  // FOOTER
+  .footer {
+    padding: 50px 0 0 35px;
+
+    &__items {
+      flex-direction: column;
+    }
+
+    &__item {
+      margin-bottom: 30px;
+
+      &-title {
+        margin-bottom: 12px;
+      }
+    }
+
+    &__item-mail,
+    &__item-unsubscribe,
+    &__list-link {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+  // ./FOOTER
+}
