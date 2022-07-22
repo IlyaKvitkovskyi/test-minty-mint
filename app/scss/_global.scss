@@ -54,3 +54,10 @@ body {
   border-radius: 10px;
   border: none;
 }
+.btn:hover {
+  background: linear-gradient(180deg, #574dcc 0%, #579aff 100%);
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -6,6 +6,8 @@ const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const del = require('del');
 const browserSync = require('browser-sync').create();
+const gulp = require('gulp');
+const deploy = require('gulp-gh-pages');
 
 function browsersync() {
   browserSync.init({
@@ -58,10 +60,14 @@ function images() {
 }
 
 function build() {
-  return src(['app/**/*.html', 'app/css/style.min.css', 'app/js/main.min.js'], {
+  return src(['app/**'], {
     base: 'app',
   }).pipe(dest('dist'));
 }
+
+gulp.task('deploy', function () {
+  return gulp.src('./dist/**/*').pipe(deploy());
+});
 
 function cleanDist() {
   return del('dist');
