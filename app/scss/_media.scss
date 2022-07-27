@@ -12,7 +12,8 @@
   // ./D-NONE
 
   .form-img,
-  .benefits__img {
+  .benefits__img,
+  .benefits__img-spot {
     display: none;
   }
 
@@ -214,7 +215,9 @@
 
     &__img-slider {
       position: absolute;
-      top: 30%;
+      top: 20%;
+      right: 0;
+      width: 100%;
       z-index: -1;
     }
 
@@ -304,6 +307,7 @@
     &__inner {
       margin-bottom: 0;
       margin-bottom: 30px;
+      align-items: center;
     }
 
     .title {
@@ -332,7 +336,9 @@
 
   .communication__img-slider {
     position: absolute;
-    bottom: -70%;
+    bottom: -100%;
+    width: 100%;
+    right: 0;
     z-index: -1;
   }
 
