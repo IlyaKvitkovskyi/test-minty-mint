@@ -196,7 +196,7 @@
 
 .form-img {
   position: absolute;
-  bottom: 15%;
+  bottom: 25%;
   z-index: -1;
 }
 
@@ -311,7 +311,16 @@ ul.benefits__slider {
     position: absolute;
     z-index: -1;
     bottom: 27%;
-    right: 20%;
+    right: 28%;
+
+    &-spot {
+      position: absolute;
+      top: -25%;
+      left: 5%;
+      z-index: -1;
+      width: 720px;
+      height: 720px;
+    }
   }
 
   &__item {
